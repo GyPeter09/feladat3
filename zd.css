@@ -1,0 +1,57 @@
+body{
+    background-image: url("hatter.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #504033;
+    font-family: "Lucida Console" ,Monaco,monospace;
+    font-size: large;
+    margin-right: 250px;
+    margin-left: 250px;
+    row-gap: 1.5;
+}
+
+.keret{
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 15px;
+}
+
+h1{
+    text-decoration: underline;
+    font-size: xx-large;
+    text-align: center;
+}
+
+h2{
+    text-decoration: underline;
+    font-size: xx-large;
+    text-align: center;
+}
+
+p{
+    text-indent: 25px;
+}
+
+#emlek{
+    width: 180px;
+    float: left;
+    margin-right: 15px;
+    border: 15px ridge #504033;
+}
+
+.paprika{
+    height: 300px;
+    float: left;
+}
+
+li{
+    list-style-image: url("dot.png");
+    font-style: italic;
+}
+
+hr{
+    width: 90%;
+    height: 5px;
+    background-color: #504033;
+    box-shadow: black 2px 2px 2px;
+}
